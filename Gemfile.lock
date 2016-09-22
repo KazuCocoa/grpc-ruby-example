@@ -16,6 +16,7 @@ GEM
     grpc (1.0.0)
       google-protobuf (~> 3.0)
       googleauth (~> 0.5.1)
+    grpc-tools (1.0.0)
     jwt (1.5.5)
     little-plugger (1.1.4)
     logging (2.1.0)
@@ -36,6 +37,7 @@ PLATFORMS
 
 DEPENDENCIES
   grpc
+  grpc-tools
 
 BUNDLED WITH
    1.12.5

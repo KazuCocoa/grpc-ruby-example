@@ -1,1 +1,14 @@
 http://www.grpc.io/docs/quickstart/ruby.html
+target branch is v1.0.x
+
+- run server
+
+```
+$ ruby route_guide/route_guide_server.rb route_guide/route_guide_db.json
+```
+
+- run client
+
+```ruby
+$ ruby route_guide/route_guide_client.rb route_guide/route_guide_db.json
+```
